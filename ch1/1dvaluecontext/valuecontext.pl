@@ -15,3 +15,7 @@ my $mynumber=1;
 if($mynumber .'Hello' eq '1Hello'){ # forcing String context
 	CORE::say "Successfully concatenated a number"
 }
+my $mynumberasboolean= !!$mynumber;
+my $myboolean=true;
+CORE::say "mynumberasboolean was $mynumberasboolean";
+CORE::say "myboolean was $myboolean";
